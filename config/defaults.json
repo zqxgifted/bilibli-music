@@ -1,0 +1,50 @@
+{
+  "_comment": "通用默认配置（可安全提交到 GitHub）。不要在这里写真实账号或本机绝对路径；用户私有配置请写 config/user.json。",
+
+  "target_name": "示例目标",
+  "target_aliases": "示例目标",
+  "base_dir": "./workspace",
+
+  "self_mid": 0,
+  "accounts": [],
+  "zl_only": [],
+  "priority_up": "",
+  "keep_all_songs": [],
+  "compilation_mids": [],
+
+  "exclude_kws_generic": ["整活"],
+  "exclude_regex_generic": [
+    "(?i)(?<![A-Za-z0-9])see(?![-‐‑–—]?saw\\b)(?!\\s+you\\b)(?=\\s*[^A-Za-z\\s])",
+    "(?i)(?<![A-Za-z0-9])see(?=\\s+[A-Za-z][A-Za-z0-9]*[^\\x00-\\x7f])"
+  ],
+  "exclude_prefix_generic": ["手描"],
+  "exclude_kws_project": [],
+  "exclude_prefix_project": [],
+  "exclude_unless_chorus_kws": [],
+  "include_kws": [],
+  "include_prefix": [],
+  "strong_sign_regex": "",
+  "partner_shorthands": [],
+
+  "force_cat1": [],
+  "force_cat2": [],
+  "force_cat3": [],
+
+  "self_song_min_sec": 60,
+  "self_song_max_sec": 330,
+  "self_review_max_sec": 640,
+  "songbook_min_parts": 4,
+
+  "audio_priority": "highest",
+  "audio_format": "m4a",
+  "mp3_bitrate": "auto",
+  "download_jobs": 3,
+  "api_interval": 1.1,
+  "overwrite": false,
+
+  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+  "cookies_file": "cookies.txt",
+  "ffmpeg": "ffmpeg",
+  "ffprobe": "ffprobe",
+  "tmp_dir": ""
+}

@@ -1,0 +1,18 @@
+{
+  "_comment": "人工标注模板。复制为 manual_labels.json 后填写 —— 规则管大多数，人工标注管个例。",
+
+  "_force_cat1_hint": "强制判 ①（确认是目标在唱，但标题看不出来）—— BV 号列表",
+  "force_cat1": [],
+
+  "_force_non_song_hint": "强制判 ③（杂谈/整活/他人视角）—— BV 号列表（整支视频排除）",
+  "force_non_song": [],
+
+  "_force_non_song_units_hint": "强制判 ③（分P级）—— 键格式 BVxxx_pN",
+  "force_non_song_units": [],
+
+  "_manual_key_hint": "强制指定去重键（必须分P级 BVxxx_pN），用于同曲异写归并",
+  "manual_key": {},
+
+  "_manual_disp_hint": "强制指定显示名/文件名（分P级 BVxxx_pN，分P名不是歌名时用）",
+  "manual_disp": {}
+}

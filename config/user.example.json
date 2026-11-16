@@ -1,0 +1,53 @@
+{
+  "_comment": "复制为 config/user.json 后填写。此模板不含真实数据，可安全提交。",
+
+  "target_name": "示例目标",
+  "_target_name_hint": "目标的显示名，用于目录名、文档标题、日志",
+  "target_aliases": "示例目标",
+  "_target_aliases_hint": "目标名/昵称的【正则】（判定标题是否提到目标用），例：某某|某某宝|某某子",
+
+  "base_dir": "./workspace",
+  "_base_dir_hint": "数据根目录。相对路径 = 程序目录下的 workspace；也可以写绝对路径如 D:/Library/xxx",
+
+  "self_mid": 0,
+  "_self_mid_hint": "目标本人的 B 站 mid；没有本人号就填 0",
+
+  "accounts": [
+    {"mid": 12345678, "name": "示例UP主A"},
+    {"mid": 23456789, "name": "示例UP主B"}
+  ],
+  "_accounts_hint": "要跟踪的所有号。mid = 空间号（数字），name = 显示名（要和投稿里的 author 一致）",
+
+  "zl_only": [12345678],
+  "_zl_only_hint": "「标题是歌名就一定是目标在唱」的频道。综合搬运号绝对不能放进来",
+
+  "priority_up": "示例UP主A",
+  "_priority_up_hint": "同一天多个 UP 发同一场时优先保留谁（选更新最快最稳的）",
+
+  "keep_all_songs": [],
+  "_keep_all_songs_hint": "例外：这些歌不同日期的版本全部保留，不做「只留最新」。例：[\"百万个吻\"]",
+
+  "compilation_mids": [],
+  "_compilation_mids_hint": "纯搬运合集号（整号排除）。这类号一条投稿几小时、几十个分P",
+
+  "exclude_kws_generic": ["整活"],
+  "_exclude_kws_generic_hint": "通用黑名单关键词（子串，忽略空格）。与「是不是歌」有关的形式特征，换目标也成立",
+  "exclude_kws_project": [],
+  "_exclude_kws_project_hint": "专属黑名单关键词：人名、粉丝团、梗、参加的综艺",
+  "exclude_prefix_generic": ["手描"],
+  "_exclude_prefix_generic_hint": "通用黑名单前缀（先剥开头符号再比，关键词不要带【】）",
+  "exclude_prefix_project": [],
+  "_exclude_prefix_project_hint": "专属黑名单前缀",
+  "exclude_unless_chorus_kws": [],
+  "_exclude_unless_chorus_kws_hint": "命中即排除，但标题含「合唱」二字则保留",
+
+  "include_kws": [],
+  "_include_kws_hint": "白名单关键词：命中强制收录（优先级高于黑名单）",
+  "include_prefix": [],
+  "_include_prefix_hint": "白名单前缀（不带【】）",
+
+  "strong_sign_regex": "",
+  "_strong_sign_regex_hint": "「目标在唱」的强署名正则。留空则按别名拼一个保守的",
+  "partner_shorthands": [],
+  "_partner_shorthands_hint": "合作对象的圈内简称（如「某某某」），命中即视为合唱"
+}

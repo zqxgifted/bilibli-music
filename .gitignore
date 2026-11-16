@@ -1,0 +1,30 @@
+# ---- 敏感 / 私有 ----
+config/user.json
+manual_labels.json
+cookies.txt
+*.key
+*.pem
+credentials*
+secrets*
+.dsh/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 构建产物 ----
+build/
+dist/
+*.spec.bak
+Releases/*.zip
+
+# ---- 运行数据 ----
+workspace/
+workspace_e2e/
+*.log
+*_dl_run.log
+*_dl_status.txt
+*_dl_failed.json

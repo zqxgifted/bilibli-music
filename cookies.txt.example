@@ -1,0 +1,13 @@
+# Netscape HTTP Cookie File
+# 这是格式示例。把浏览器里登录 B 站的 cookies 导出成这个格式，
+# 放到「数据目录」或「程序目录」下，命名为 cookies.txt。
+#
+# 至少需要 SESSDATA 这一行；有效期约 360 天。
+# 过期表现为 nav 接口返回 -101（程序会自动检测并提示）。
+#
+# 导出方法（浏览器插件 / 扩展「Get cookies.txt LOCALLY」等）：
+#   1. 登录 https://www.bilibili.com
+#   2. 用插件导出 Netscape 格式
+#   3. 只保留 .bilibili.com 的 SESSDATA 那几行
+
+.bilibili.com	TRUE	/	FALSE	0	SESSDATA	在这里粘贴你的SESSDATA值
