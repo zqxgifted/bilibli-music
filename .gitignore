@@ -8,6 +8,9 @@ credentials*
 secrets*
 .dsh/
 
+# ---- 回归测试（含生产脚本路径 + 真实 mid 表，属私有）----
+tests/
+
 # ---- Python ----
 __pycache__/
 *.py[cod]
@@ -20,6 +23,7 @@ build/
 dist/
 *.spec.bak
 Releases/*.zip
+bilimusic.exe
 
 # ---- 运行数据 ----
 workspace/
